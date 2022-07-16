@@ -1,10 +1,28 @@
 html, body {
     padding: 0;
     margin: 0;
+    background-color: #a2d2ff;
 }
 
 .app-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    height: 100%;
+    // border: 1px solid blue;
+    background-color: #bde0fe;
+    
+}
+
+.home {
+    color: #faedcd;
+    text-decoration: none;
+}
+
+.nav-link {
+    margin-right: 10px;
+    color: #faedcd;
+    
+
 }
